@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  text-align: center;
+}
+
+body {
+  padding-bottom: 32px;
+  background: #eee;
+}
+
+p {
+  padding-top: 16px;
+}
+
+header {
+  text-align: center;
+  padding: 24px 0;
+}
+
+section {
+  width: 460px;
+  height: 280px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+  padding-top: 24px;
+  box-shadow: 3px 10px 10px 6px #d7d6d6;
+}
+
+ul {
+  list-style: none;
+  padding: 16px 24px 0;
+}
+
+img {
+  padding-top: 16px;
+}
+
+a {
+  color: #a563a6;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.pheader {
+  padding-top: 8px;
+}
+
+.target {
+  background: #a2bf39;
+  color: #fff;
+}
+
+.formation {
+  background: #f2a516;
+  color: #fff;
+}
+
+.experience {
+  background: #0badbf;
+  color: #fff;
+}
+
+.skills {
+  background: #a563a6;
+  color: #fff;
+}
