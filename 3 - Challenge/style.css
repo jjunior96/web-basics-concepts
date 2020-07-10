@@ -45,18 +45,23 @@ h2 {
   font-weight: 500;
 }
 
-.main {
+.wrapper-main {
   width: 100%;
 
   /* Altura total da viewport - o tamanho do header */
   height: calc(100vh - 86px);
+  background: #dce5f0;
+}
 
-  background: #b6c5d6;
-  padding: 2rem 30rem 0;
+.main {
+  width: 650px;
+  margin: 0 auto;
+  padding-top: 2rem;
 }
 
 p {
   margin-top: 24px;
+  line-height: 1.3;
 }
 
 .date {
