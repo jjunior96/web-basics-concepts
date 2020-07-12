@@ -16,7 +16,7 @@ header {
 .menu-wrapper {
   display: flex;
   justify-content: space-between;
-  padding: 1.5rem 6rem;
+  padding: 1.5rem 8rem;
 }
 
 .logo {
@@ -39,6 +39,10 @@ li {
   font-weight: 400;
 }
 
+li > a:hover {
+  color: #0d0d0d;
+}
+
 #about-menu {
   color: #0d0d0d;
 }
@@ -54,9 +58,18 @@ button {
   background-color: transparent;
   border: 2px solid #0d0d0d;
   color: #0d0d0d;
-  padding: 2px 16px;
+  padding: 1px 16px;
   border-radius: 50px;
   cursor: pointer;
+}
+
+.nav-menu > button {
+  margin-left: 16px;
+}
+
+button:hover {
+  background-color: #0d0d0d;
+  color: #fff;
 }
 
 .price {
@@ -72,7 +85,57 @@ main {
 
 .main-title {
   width: 50vw;
-  margin-left: 6rem;
+  padding-left: 8rem;
+  padding-right: 10rem;
+}
+
+.main-title > p {
+  color: #a19280;
+  margin-bottom: 1.2rem;
+}
+
+.main-title > h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1.2rem;
+}
+
+.main-title > h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  color: #a19280;
+  margin-bottom: 1.2rem;
+  word-spacing: 9px;
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button-wrapper > p {
+  margin-top: 4rem;
+  margin-right: 8rem;
+  color: #cca16d;
+  cursor: pointer;
+}
+
+.button-wrapper > button {
+  font-size: 1rem;
+  margin-top: 4rem;
+  height: 3.5rem;
+  width: 12rem;
+  padding: 1rem 2.5rem;
+  color: #fff;
+  background-color: #0d0d0d;
+  box-shadow: 2px 2px 8px #0d0d0d79;
+}
+
+.button-wrapper > button:hover {
+  color: #a19280;
 }
 
 .image-wrapper {
