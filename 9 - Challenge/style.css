@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2f2f30;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+  color: #fff;
+  padding: 2rem 2rem 1.6rem;
+  border-bottom: 2px solid #707072;
+}
+
+.logo-wrapper {
+  cursor: pointer;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-menu > li {
+  padding-left: 3rem;
+  cursor: pointer;
+  color: #707072;
+}
+
+.main-title-wrapper {
+  padding: 2rem;
+}
+
+.title-wrapper {
+  width: 22rem;
+  line-height: 1.3;
+  margin: 7rem 3rem 0;
+}
+
+.title-wrapper > h1 {
+  word-spacing: 0.6rem;
+  color: #fff;
+  font-size: 3rem;
+}
+
+.title-wrapper > p {
+  margin-top: 2rem;
+  color: #707072;
+  word-spacing: 0.3rem;
+}
+
+.btn-get {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 2.5rem;
+  padding: 1rem 2rem;
+  border: transparent;
+  background-color: #d58f5c;
+  color: #fff;
+  box-shadow: 2px 10px 12px #19191a5d;
+}
+
+.btn-learn {
+  color: #707072;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+  margin-left: 2rem;
+  padding: 1rem;
+}
