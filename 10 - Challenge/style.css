@@ -81,10 +81,13 @@ p > span {
 }
 
 .search-inputs > li {
+  display: flex;
+  flex-direction: column;
   padding: 1rem 1.5rem;
   padding-right: 7rem;
   border-left: 1px solid rgb(216, 216, 216);
   text-justify: left;
+  justify-content: center;
 }
 
 .search-inputs > li:first-child {
