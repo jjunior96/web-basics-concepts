@@ -3,51 +3,79 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Projeto - Pagina de Captura</title>
+    <link rel="icon" href="./images/ico.png" type="image/png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Workshop</title>
   </head>
   <body>
-    <header>
-      <h1>Participe do workshop que vai mudar o seu negócio</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>Participe do workshop que vai mudar o seu negócio</h1>
+      </header>
 
-    <main>
-      <div class="image-wrapper">
-        <img src="/Pagina de captura/img/1.jpg" alt="" />
-      </div>
+      <section class="main-wrapper">
+        <!-- <div class="image-wrapper">
+          <img src="/Pagina de captura/img/1.jpg" alt="" />
+        </div> -->
 
-      <section class="form-wrapper">
-        <h2>
-          Garanta o seu lugar no workshop do maior especialista em marketing da
-          atualidade
-        </h2>
-        <p>
-          Neste evento, você vai aprender os segredos que vão te fazer ser um
-          empreendedor de sucesso sem precisar contar com a sorte.
-        </p>
-
-        <form action="#" method="GET">
-          <input type="text" placeholder="Nome" />
-          <input type="email" placeholder="Email" />
-          <input type="number" name="ZIP" placeholder="Rio de janeiro" />
-          <input type="submit" value="Increva-se" />
-        </form>
-      </section>
-    </main>
-
-    <section class="info-wrapper">
-      <div class="info">
-        <img src="" alt="" />
-        <div class="description">
-          <h2>O palestrante</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
-            corrupti! Qui voluptatum quibusdam harum, fugit totam sit quae
-            temporibus impedit culpa atque assumenda ex cumque itaque asperiores
-            rem laudantium amet.
+        <section class="form-wrapper">
+          <h2 class="margin-bottom">
+            Garanta o seu lugar no workshop do maior especialista em marketing
+            da atualidade
+          </h2>
+          <p class="margin-bottom">
+            Neste evento, você vai aprender os segredos que vão te fazer ser um
+            empreendedor de sucesso sem precisar contar com a sorte.
           </p>
+
+          <form
+            action="https://gmail.us17.list-manage.com/subscribe/post?u=78ed2291f780b3cb21005f662&amp;id=4bedc73f2b"
+            method="post"
+            id="mc-embedded-subscribe-form"
+            name="mc-embedded-subscribe-form"
+            class="validate"
+            target="_blank"
+            novalidate
+          >
+            <input type="text" placeholder="Nome" name="FNAME" />
+            <input type="email" placeholder="Email" name="EMAIL" />
+            <select name="PLACE">
+              <option value="rj">Rio de Janeiro</option>
+              <option value="sp">São Paulo</option>
+              <option value="mg">Minas Gerais</option>
+              <option value="es">Espírito Santo</option>
+            </select>
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+              <input
+                type="text"
+                name="b_78ed2291f780b3cb21005f662_4bedc73f2b"
+                tabindex="-1"
+                value=""
+              />
+            </div>
+            <input type="submit" value="Increva-se" />
+          </form>
+        </section>
+      </section>
+
+      <footer class="info-wrapper">
+        <div class="info">
+          <img class="picture" src="./images/face.jpg" alt="" />
+          <div class="description">
+            <h2>O palestrante</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+              corrupti! Qui voluptatum quibusdam harum, fugit totam sit quae
+              temporibus impedit culpa atque assumenda ex cumque itaque
+              asperiores rem laudantium amet.
+            </p>
+            <p>
+              Qui voluptatum quibusdam harum, fugit totam sit quae temporibus
+              impedit culpa atque assumenda.
+            </p>
+          </div>
         </div>
-      </div>
-    </section>
+      </footer>
+    </div>
   </body>
 </html>

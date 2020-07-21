@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: black;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  padding: 0.8rem 0;
+  background-color: #d95d30;
+}
+
+header > h1 {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.main-wrapper {
+  background-image: url("../images/people.jpg");
+  background-size: cover;
+  overflow: hidden;
+  width: 100%;
+  /* height: 400px; */
+}
+
+.image-wrapper {
+  width: 100%;
+  /* height: calc(100vh - 100px); */
+  position: absolute;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  background-color: rgba(17, 17, 17, 0.568);
+  /* position: absolute;
+  right: 0; */
+  float: right;
+  padding: 1rem 2rem;
+  margin: 2rem;
+  max-width: 300px;
+}
+
+.form-wrapper > h2 {
+  font-size: 1.5rem;
+}
+
+.margin-bottom {
+  margin-bottom: 1.5rem;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+
+  background-image: url("../images/arrow.jpg");
+  background-repeat: no-repeat;
+  background-position-x: calc(100% - 10px);
+  background-position-y: center;
+}
+
+input[type="submit"] {
+  background-color: #d95d30;
+  color: #fff;
+}
+
+.info-wrapper {
+  color: #fff;
+}
+
+.info {
+  background-color: #111;
+  /* display: inline-block; */
+  text-align: center;
+  padding: 2rem;
+}
+
+.picture {
+  width: 160px;
+}
+
+.description {
+  display: inline-block;
+  color: #fff;
+  max-width: 40%;
+  margin-left: 40px;
+  text-align: left;
+}
+
+.description h2,
+p {
+  margin-bottom: 1.5rem;
+}
+
+.description h2 {
+  font-size: 1.6rem;
+}
