@@ -19,12 +19,6 @@ main {
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
   main {
     display: flex;
     padding: 0 2rem;
@@ -97,5 +91,9 @@ main {
 
   .post {
     margin-bottom: 2rem;
+  }
+
+  .comment > p {
+    color: rgb(150, 150, 150);
   }
 }
