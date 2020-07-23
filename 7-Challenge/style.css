@@ -104,6 +104,11 @@ button {
   box-shadow: 2px 6px 18px #2d55a681;
 }
 
+button:hover {
+  background-color: #203b72;
+  box-shadow: 2px 7px 18px #234486b9;
+}
+
 .signup-image {
   position: relative;
   width: 60vw;
