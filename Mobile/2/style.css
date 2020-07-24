@@ -134,7 +134,7 @@ a > p {
 }
 
 /* Footer ==================== */
-footer {
+aside {
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -145,6 +145,10 @@ footer {
 
 .menu-wrapper {
   margin: 1rem 2rem;
+}
+
+.menu-wrapper h1 {
+  display: none;
 }
 
 ul {
@@ -159,14 +163,46 @@ li:first-child {
   font-weight: 500;
 }
 
+/* Responsividade ===================== */
+
 @media only screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
   .grid-places {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .profile-image {
-    /* padding-right: 1rem; */
+  aside {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 10rem;
+    height: 100%;
+    background-color: #eee;
+    border-right: 1px solid #ddd;
+  }
+
+  .menu-wrapper h1 {
+    display: none;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+
+  li {
+    margin-bottom: 2rem;
+  }
+
+  .content {
+    margin-left: 10rem;
   }
 }
 
@@ -176,6 +212,12 @@ li:first-child {
     margin: 0 auto;
   }
 
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
   .search-wrapper {
     max-width: 1240px;
     margin: 0 auto;
@@ -183,12 +225,50 @@ li:first-child {
 
   main {
     max-width: 1240px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     margin-top: 2rem;
   }
 
   .grid-places {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  aside {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 20rem;
+    height: 100%;
+    background-color: #eee;
+    border-right: 1px solid #ddd;
+  }
+
+  .menu-wrapper h1 {
+    display: block;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: 8px;
+    padding-bottom: 1.8rem;
+    border-bottom: 1px solid #aaa;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  li {
+    margin-bottom: 2rem;
+  }
+
+  .content-wrapper {
+    margin-left: 20rem;
+  }
+
+  .content {
+    margin: 0 auto;
   }
 }
