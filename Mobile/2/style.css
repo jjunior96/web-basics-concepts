@@ -101,21 +101,36 @@ main {
 .grid-places {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0rem 2rem;
-  margin-top: 2rem;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 32px;
+  margin-top: 32px;
 }
 
 .place {
+  display: grid;
+  border-radius: 9px;
+  box-shadow: 0 0 20px #aaa;
   max-width: 400px;
-  max-height: 200px;
-  background-size: cover;
-  margin-bottom: 4rem;
+  max-height: 600px;
+  overflow: hidden;
+
+  background-size: contain;
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
 }
 
-.place img {
-  border-radius: 10px;
-  height: 100%;
-  width: 100%;
+a {
+  text-decoration: none;
+  /* position: absolute; */
+}
+
+a > p {
+  position: relative;
+}
+
+.place > a img {
+  display: block;
+  max-width: 100%;
 }
 
 /* Footer ==================== */
@@ -142,4 +157,38 @@ ul {
 li:first-child {
   color: #222;
   font-weight: 500;
+}
+
+@media only screen and (min-width: 768px) {
+  .grid-places {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .profile-image {
+    /* padding-right: 1rem; */
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  header {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .search-wrapper {
+    max-width: 1240px;
+    margin: 0 auto;
+  }
+
+  main {
+    max-width: 1240px;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+
+  .grid-places {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
