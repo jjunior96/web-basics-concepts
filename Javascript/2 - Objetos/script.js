@@ -73,7 +73,12 @@ function aluno (name, n1, n2) {
   this.media = function () {
     return (this.nota1 + this.nota2) / 2;
   }
+
+  // Boa pratica, retornar o objeto no final com o this
+  return this;
 }
 
 // Utilizamos o construtor para criar o objeto
 const primeiroAluno = new aluno("Junior", 8, 9);
+
+// OBS.: Caso nao utilizamos o "new", a linha acima, iria retornar "undefined"
