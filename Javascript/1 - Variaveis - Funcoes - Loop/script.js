@@ -1,3 +1,7 @@
+// Imprmir os nomes de dados alunos, seguidos de suas notas (primeira e segunda nota)
+// Depois calcular a media
+// E por fim, exibir se o aluno esta aprovado ou nao, se media > 7
+
 const alunos = ["Junior", "Lucas", "Igor"];
 const notas1 = [8.0, 4.0, 8.5];
 const notas2 = [9.0, 5.0, 6.5];
