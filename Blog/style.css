@@ -31,7 +31,7 @@ img {
 
 /* Altera a cor da selecao dentro da pagina */
 ::selection {
-  background-color: #39395ea6;
+  background-color: #222f3e81;
 }
 
 /* Scroll da pagina */
@@ -115,7 +115,7 @@ aside {
 }
 
 .menu-links a:hover {
-  color: #8395a7;
+  color: #0abde3;
   transition: color 0.6s;
 }
 
@@ -126,7 +126,56 @@ main {
 
 /* Classe que limita onde os conteudos irao ficar */
 .wrapper {
-  max-width: 1300px;
+  max-width: 1200px;
   margin: auto;
+  /* background-color: #fff; */
+}
+
+.post-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.post-item {
+  display: flex;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 20px rgb(214, 214, 214);
   background-color: #fff;
+}
+
+.post-tag {
+  height: 8rem;
+  width: 15rem;
+  overflow: hidden;
+  background-position: left;
+  background-image: url(./img/post1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.post-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1.4rem;
+}
+
+.post-info p {
+  color: #8395a7;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.post-info h1 {
+  color: #222f3e;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.post-info h2 {
+  color: #8395a7;
+  font-size: 1.3rem;
+  font-weight: 300;
 }
