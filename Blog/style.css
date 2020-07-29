@@ -119,6 +119,10 @@ aside {
   transition: color 0.6s;
 }
 
+.menu-links a:active {
+  color: #0abde3;
+}
+
 /* Conteudo principal da pagina */
 main {
   margin-left: 18rem;
@@ -159,7 +163,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 1.4rem;
+  margin-left: 1rem;
 }
 
 .post-info p {
