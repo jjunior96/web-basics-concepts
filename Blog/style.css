@@ -142,6 +142,18 @@ main {
   width: 100%;
 }
 
+.post-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1rem;
+}
+
+.post-link:hover {
+  color: #0abde3;
+  transition: 0.3s color;
+}
+
 .post-item {
   display: flex;
   margin-bottom: 1rem;
@@ -159,26 +171,19 @@ main {
   background-repeat: no-repeat;
 }
 
-.post-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 1rem;
-}
-
-.post-info p {
+.post-link p {
   color: #8395a7;
   font-size: 0.9rem;
   font-weight: 300;
 }
 
-.post-info h1 {
+.post-link h1 {
   color: #222f3e;
   font-size: 2rem;
   font-weight: 500;
 }
 
-.post-info h2 {
+.post-link h2 {
   color: #8395a7;
   font-size: 1.3rem;
   font-weight: 300;
