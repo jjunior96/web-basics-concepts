@@ -1,6 +1,7 @@
 :root {
   --background-color: #0d1b2a;
   --title-primary-light: #fff;
+  --background-navbar: #1b263b;
 }
 
 * {
@@ -45,4 +46,25 @@ header {
   font-size: 1rem;
   font-weight: 400;
   font-family: "Baloo Tamma 2", cursive;
+}
+
+footer {
+  width: 100%;
+  background-color: var(--background-navbar);
+  position: fixed;
+  bottom: 0;
+}
+
+.navbar {
+  margin: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons {
+  width: 4rem;
+  height: 4rem;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: #aaa;
 }
