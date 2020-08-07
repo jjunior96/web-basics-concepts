@@ -1,0 +1,48 @@
+:root {
+  --background-color: #0d1b2a;
+  --title-primary-light: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+html {
+  font-size: 62.4%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.profile {
+  max-width: 5rem;
+  max-height: 5rem;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.header-title {
+  color: var(--title-primary-light);
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Baloo Tamma 2", cursive;
+}
