@@ -2,6 +2,7 @@
   --background-color: #0d1b2a;
   --title-primary-light: #fff;
   --background-navbar: #1b263b;
+  --background-icons-navbar: #778da9;
 }
 
 * {
@@ -26,12 +27,22 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+.margin-horizontal {
+  margin: 0 2rem;
+}
+
 header {
   width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+.header-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 2rem;
+  margin-top: 1rem;
 }
 
 .profile {
@@ -44,8 +55,8 @@ header {
 .header-title {
   color: var(--title-primary-light);
   font-size: 1rem;
-  font-weight: 400;
-  font-family: "Baloo Tamma 2", cursive;
+  font-weight: 300;
+  font-family: "Quicksand", sans-serif;
 }
 
 footer {
@@ -56,15 +67,17 @@ footer {
 }
 
 .navbar {
-  margin: 1rem 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   display: flex;
   justify-content: space-between;
 }
 
-.icons {
-  width: 4rem;
-  height: 4rem;
-  overflow: hidden;
-  border-radius: 50%;
-  background-color: #aaa;
+.navbar i {
+  /* background-color: var(--background-icons-navbar); */
+  padding: 1rem;
+  color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-left: 1rem;
 }
