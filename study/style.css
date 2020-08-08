@@ -60,9 +60,10 @@ header {
 
 .header-title {
   color: var(--title-primary-light);
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 300;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Prompt", sans-serif;
+  letter-spacing: 2px;
 }
 
 footer {
@@ -80,7 +81,7 @@ footer {
 }
 
 .navbar i {
-  /* background-color: var(--background-icons-navbar); */
+  font-size: 1.6rem;
   padding: 1rem;
   color: var(--icons-primary-color);
   border-radius: 50px;
@@ -88,15 +89,24 @@ footer {
   margin-left: 1rem;
 }
 
+.navbar i:first-child {
+  margin-left: 0;
+}
+
 main {
   margin-top: calc(6rem + 4rem);
   margin-bottom: 8rem;
   width: 100%;
-  color: #fff;
 }
 
 .posts-wrapper {
   margin-top: 4rem;
+}
+
+.post-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
 }
 
 .post-item {
@@ -121,14 +131,16 @@ main {
 .post-info p:first-child {
   color: var(--post-date-color);
   margin-bottom: 0.2rem;
+  font-size: 1.2rem;
 }
 
 .post-info h1 {
   color: var(--post-title-color);
+  font-size: 2rem;
 }
 
 .post-info p:last-child {
   color: var(--post-description-color);
-  list-style: 2.2rem;
-  font-size: 1.2rem;
+  line-height: 2.2rem;
+  font-size: 1.5rem;
 }
