@@ -1,5 +1,6 @@
 :root {
   --background-color: #0d1b2a;
+  --header-shadow: #050f1b;
   --title-primary-light: #fff;
   --icons-primary-color: #fff;
   --background-navbar: #1b263b;
@@ -7,6 +8,8 @@
   --post-date-color: #778da9;
   --post-title-color: #e0e1dd;
   --post-description-color: #778da9;
+  --profile-border-top: #1c2633;
+  --background-selection: #071f49;
 }
 
 * {
@@ -18,6 +21,11 @@
 
 html {
   font-size: 62.4%;
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: var(--background-selection);
 }
 
 img {
@@ -37,33 +45,30 @@ body {
 
 header {
   width: 100%;
-  height: 6rem;
   position: fixed;
   top: 0;
   z-index: 999;
   padding: 1rem 0;
   background-color: var(--background-color);
+  box-shadow: 0 0 10px var(--header-shadow);
 }
 
 .header-wrapper {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-}
-
-.profile {
-  max-width: 4rem;
-  max-height: 4rem;
-  overflow: hidden;
-  border-radius: 50%;
+  justify-content: center;
+  margin: 1rem 0;
 }
 
 .header-title {
   color: var(--title-primary-light);
+  text-align: center;
   font-size: 0.8rem;
+  line-height: 1.8rem;
   font-weight: 300;
   font-family: "Prompt", sans-serif;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
+  text-decoration: none;
 }
 
 footer {
@@ -95,11 +100,14 @@ footer {
 
 main {
   margin-top: calc(6rem + 4rem);
-  margin-bottom: 8rem;
+  margin-bottom: 32rem;
   width: 100%;
+  height: 50vh;
 }
 
 .posts-wrapper {
+  display: flex;
+  flex-direction: column;
   margin-top: 4rem;
 }
 
@@ -143,4 +151,37 @@ main {
   color: var(--post-description-color);
   line-height: 2.2rem;
   font-size: 1.5rem;
+}
+
+.profile-wrapper {
+  display: flex;
+  bottom: 0;
+  border-top: 0.1rem solid var(--profile-border-top);
+  align-items: center;
+  margin-top: 6.4rem;
+  margin-bottom: 7.4rem;
+  padding-top: 2rem;
+}
+
+.profile-image {
+  max-width: 6rem;
+  max-height: 6rem;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.profile-title {
+  margin-left: 1.6rem;
+  color: var(--title-primary-light);
+  line-height: 2rem;
+}
+
+.profile-title h1 {
+  font-weight: 300;
+}
+
+.profile-title h2 {
+  font-weight: 300;
+  margin-top: 0.5rem;
+  color: var(--post-date-color);
 }
