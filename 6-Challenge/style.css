@@ -51,11 +51,9 @@ li {
   cursor: pointer;
 }
 
-/* div {
-  width: 1000px;
-  height: 3000px;
-  background-color: #aaa;
-} */
+li:hover {
+  color: #c68ee0;
+}
 
 main {
   padding: 0 29rem;
