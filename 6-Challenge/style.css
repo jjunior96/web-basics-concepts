@@ -49,6 +49,7 @@ li {
   margin-left: 3rem;
   /* padding: 1rem; */
   cursor: pointer;
+  transition: color 0.3s;
 }
 
 li:hover {
@@ -88,11 +89,18 @@ main > h1 {
   margin: 4px 4px;
   padding: 0 2rem;
   border-radius: 50px;
-  border: 1px solid transparent;
+  border: none;
   background-color: #aaa;
   color: #fff;
   background: linear-gradient(90deg, #cf82d9, #b470bd, #9860a0);
   cursor: pointer;
+  transition: color 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #603b66, #9860a0);
+
+  /* background-color: #280b31; */
 }
 
 .seta {
