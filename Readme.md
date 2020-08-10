@@ -73,3 +73,10 @@
     - Repositório: https://github.com/jjunior96/web-basics-concepts/tree/master/Mobile/1
 
     - Demo: https://jjunior96.github.io/web-basics-concepts/Mobile/1
+
+### Churrascômetro
+
+- Repositório: https://github.com/jjunior96/web-basics-concepts/tree/master/Javascript/Challenges/1-Challenge/
+
+
+    - Demo: https://jjunior96.github.io/web-basics-concepts/Javascript/Challenges/1-Challenge/
