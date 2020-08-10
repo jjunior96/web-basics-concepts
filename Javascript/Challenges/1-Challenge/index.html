@@ -3,22 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
     <link rel="stylesheet" href="./css/styles.css" />
-    <script src="./js/script.js"></script>
     <title>Churrascometro</title>
   </head>
   <body>
     <main>
+      <!-- Conteudo -->
       <section class="content">
         <h1 onclick="retornaElemento()">Churrascômetro</h1>
 
+        <!-- Inputs -->
         <div class="input-wrapper">
-          <input type="number" placeholder="Adultos" />
-          <input type="number" placeholder="Crianças" />
-          <input type="number" placeholder="Duração (horas)" />
+          <input id="adultos" type="number" placeholder="Adultos" />
+          <input id="criancas" type="number" placeholder="Crianças" />
+          <input id="duracao" type="number" placeholder="Duração (horas)" />
           <button type="submit" onclick="calculaChurrasco()">Calcular</button>
         </div>
+
+        <!-- Resultado que seja inserido via JS -->
+        <div id="result-wrapper"></div>
       </section>
     </main>
+
+    <!-- JS -->
+    <script src="./js/script.js"></script>
   </body>
 </html>
