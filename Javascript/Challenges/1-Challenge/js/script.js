@@ -4,7 +4,7 @@
 
 // Crianças valem 0.5 pessoas
 
-let teste = document.getElementById("title");
+let teste = document.getElementsByClassName("input-wrapper");
 
 console.log(teste);
 
