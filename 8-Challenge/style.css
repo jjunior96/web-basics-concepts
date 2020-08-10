@@ -62,6 +62,7 @@ li {
 li > a {
   text-decoration: none;
   color: #322e31;
+  transition: color 0.2s;
 }
 
 li > a:hover {
@@ -207,6 +208,7 @@ h2 > span {
   text-decoration: none;
   color: #fff;
   font-weight: 600;
+  transition: linear 0.2s;
 }
 
 .services-description > a:hover {
@@ -276,6 +278,7 @@ h2 > span {
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
+  transition: linear 0.2s;
 }
 
 .info-galery-description > button:hover {
@@ -330,11 +333,12 @@ h2 > span {
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
+  transition: linear 0.2s;
 }
 
 .info-contact-description > button:hover {
   color: #fff;
-  background-color: #f2b705;
+  background-color: #322e31;
 }
 
 /* Footer ================ */
@@ -388,6 +392,11 @@ footer > section {
 .footer-menu-link > li {
   margin-bottom: 1rem;
   cursor: pointer;
+  transition: linear 0.2s;
+}
+
+.footer-menu-link > li:hover {
+  color: #f2b705;
 }
 
 .footer-line {
