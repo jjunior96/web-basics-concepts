@@ -59,24 +59,23 @@
 10) Clone do site Airbnb.
 
     - Repositório: https://github.com/jjunior96/web-basics-concepts/tree/master/10-Challenge
-
+    
     - Demo: https://jjunior96.github.io/web-basics-concepts/10-Challenge/
 
 11) Prototipo de Blog.
 
     - Repositório: https://github.com/jjunior96/web-basics-concepts/tree/master/Blog-test
-
+    
     - Demo: https://jjunior96.github.io/web-basics-concepts/Blog-test/
 
 12) Primeiro estudo sobre responsividade
 
     - Repositório: https://github.com/jjunior96/web-basics-concepts/tree/master/Mobile/1
-
+    
     - Demo: https://jjunior96.github.io/web-basics-concepts/Mobile/1
 
 ### Churrascômetro
 
-    - Repositório: https://github.com/jjunior96/web-basics-concepts/tree/master/Javascript/Challenges/1-Challenge/
+  - Repositório: https://github.com/jjunior96/web-basics-concepts/tree/master/Javascript/Challenges/1-Challenge/
+  - Demo: https://jjunior96.github.io/web-basics-concepts/Javascript/Challenges/1-Challenge/
 
-
-    - Demo: https://jjunior96.github.io/web-basics-concepts/Javascript/Challenges/1-Challenge/
