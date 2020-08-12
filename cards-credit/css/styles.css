@@ -1,6 +1,8 @@
 :root {
   --background-container: #22223b;
   --icons-color-primary: #fff;
+  --icon-add-border: #cfdbd5;
+  --background-color-icon: #4a4e69;
   --title-main-primary: #fff;
 }
 
@@ -40,8 +42,8 @@ body {
 }
 
 .profile-image {
-  width: 3rem;
-  height: 3rem;
+  width: 4rem;
+  height: 4rem;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -64,12 +66,104 @@ body {
 }
 
 .title-main > h1 {
-  font-size: 2.4rem;
+  font-size: 3.2rem;
   color: var(--title-main-primary);
 }
 
 #icon-add-card {
-  border: 1px solid #cfdbd5;
+  border: 1px solid var(--icon-add-border);
   font-size: 1rem;
   border-radius: 50%;
+}
+
+.cards-wrapper {
+  margin-top: 3.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  border-radius: 1.6rem;
+  background-color: #fff;
+  overflow: hidden;
+  height: 18rem;
+  padding: 2rem;
+  border: 3px solid var(--background-container);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#card-2 {
+  z-index: 997;
+  margin-top: -12rem;
+  background-color: #0984e3;
+}
+
+#card-3 {
+  z-index: 998;
+  margin-top: -12rem;
+  background-color: #d63031;
+}
+
+#card-4 {
+  z-index: 999;
+  margin-top: -12rem;
+  background-color: #a29bfe;
+}
+
+.shared-wrapper {
+  margin-top: 3.2rem;
+}
+
+.shared-wrapper > h1 {
+  color: var(--title-main-primary);
+  font-size: 2.4rem;
+  letter-spacing: 2px;
+  margin-bottom: 2.4rem;
+}
+
+.accounts-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-account {
+  display: flex;
+  background-color: var(--background-color-icon);
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.6rem;
+  padding: 2.4rem;
+  flex-grow: 1;
+}
+
+.account-icon {
+  color: var(--icons-color-primary);
+}
+
+.account-icon:last-child {
+  font-size: 1.6rem;
+}
+
+.first-account {
+  flex-grow: 2;
+  background-color: var(--background-color-icon);
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.6rem;
+  padding: 2.4rem;
+  margin: 0 1rem;
+}
+
+.second-account {
+  flex-grow: 2;
+  background-color: var(--background-color-icon);
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.6rem;
+  padding: 2.4rem;
 }
