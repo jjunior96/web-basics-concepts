@@ -1,0 +1,48 @@
+:root {
+  --background-page-primary: #e8e8e8;
+  --profile-menu-color: #564256;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: var(--background-page-primary);
+}
+
+.profile-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.profile-image {
+  width: 4rem;
+  height: 4rem;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.icon {
+  font-size: 2rem;
+  color: var(--profile-menu-color);
+}
+
+main {
+  padding: 0 2rem;
+}
