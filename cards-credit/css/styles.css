@@ -4,6 +4,7 @@
   --icon-add-border: #cfdbd5;
   --background-color-icon: #4a4e69;
   --title-main-primary: #fff;
+  --title-lighter: #e9ecef;
 }
 
 * {
@@ -95,24 +96,96 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: var(--title-main-primary);
+}
+
+.card-header > p {
+  display: flex;
+  align-items: center;
+}
+
+#card-1 {
+  background-color: #eb5e28;
 }
 
 #card-2 {
   z-index: 997;
-  margin-top: -12rem;
+  margin-top: -11rem;
   background-color: #0984e3;
 }
 
 #card-3 {
   z-index: 998;
-  margin-top: -12rem;
+  margin-top: -11rem;
   background-color: #d63031;
 }
 
 #card-4 {
   z-index: 999;
-  margin-top: -12rem;
-  background-color: #a29bfe;
+  margin-top: -11rem;
+  background-color: #8f1fbf;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-number {
+  font-size: 1.2rem;
+  color: var(--title-main-primary);
+}
+
+.card-number > span {
+  margin-left: 1rem;
+}
+
+.card-price > h2 {
+  font-size: 3.2rem;
+  color: var(--title-main-primary);
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-expiration > h2 {
+  color: var(--title-lighter);
+  font-weight: 300;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.card-expiration > p {
+  color: var(--title-main-primary);
+  font-weight: 500;
+  font-size: 1.4rem;
+  margin-top: 0.3rem;
+}
+
+.card-holder > h2 {
+  color: var(--title-lighter);
+  font-weight: 300;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.card-holder > p {
+  color: var(--title-main-primary);
+  font-weight: 500;
+  font-size: 1.4rem;
+  margin-top: 0.3rem;
+}
+
+.card-flag {
+  height: 4rem;
+  width: 4rem;
 }
 
 .shared-wrapper {
@@ -139,6 +212,7 @@ body {
   border-radius: 1.6rem;
   padding: 2.4rem;
   flex-grow: 1;
+  margin-right: 1rem;
 }
 
 .account-icon {
@@ -149,21 +223,26 @@ body {
   font-size: 1.6rem;
 }
 
-.first-account {
-  flex-grow: 2;
+.user-account {
+  flex-grow: 4;
   background-color: var(--background-color-icon);
   align-items: center;
   justify-content: center;
   border-radius: 1.6rem;
-  padding: 2.4rem;
-  margin: 0 1rem;
+  padding: 1rem;
+  display: flex;
+  color: var(--title-main-primary);
+  align-items: center;
 }
 
-.second-account {
-  flex-grow: 2;
-  background-color: var(--background-color-icon);
-  align-items: center;
-  justify-content: center;
-  border-radius: 1.6rem;
-  padding: 2.4rem;
+.user-account:last-child {
+  margin-left: 1rem;
+}
+
+.user-image {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 1rem;
 }
