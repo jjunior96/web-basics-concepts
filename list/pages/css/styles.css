@@ -1,0 +1,74 @@
+:root {
+  --background-page-primary: #e8e8e8;
+  --profile-menu-color: #564256;
+  --title-color-primary: #fc814a;
+  --button-background-primary: #fc814a;
+  --button-shadow-primary: #bd5b2eb0;
+  --button-color-primary: #fff;
+  --button-placeholder-color: #96939b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: var(--background-page-primary);
+}
+
+main {
+  padding: 0 2rem;
+}
+
+.input-data {
+  margin-top: 3.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+main > h1 {
+  margin-top: 3.2rem;
+  font-size: 2.4rem;
+  color: var(--title-color-primary);
+  line-height: 3.4rem;
+  letter-spacing: 2px;
+}
+
+input {
+  width: 100%;
+  height: 4.8rem;
+  border-radius: 1.2rem;
+  border: none;
+  margin-bottom: 2rem;
+  padding: 1.6rem 1rem;
+  color: var(--button-placeholder-color);
+}
+
+input::placeholder {
+  color: var(--button-placeholder-color);
+}
+
+button {
+  background-color: var(--button-background-primary);
+  color: var(--button-color-primary);
+  border: none;
+  padding: 2rem;
+  border-radius: 1.2rem;
+  font-weight: 600;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  box-shadow: 0 3px 10px var(--button-shadow-primary);
+}
