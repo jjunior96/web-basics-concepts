@@ -78,4 +78,3 @@
 
   - Repositório: https://github.com/jjunior96/web-basics-concepts/tree/master/Javascript/Challenges/1-Challenge/
   - Demo: https://jjunior96.github.io/web-basics-concepts/Javascript/Challenges/1-Challenge/
-
